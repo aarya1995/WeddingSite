@@ -7,6 +7,7 @@ import '../css/style.css';
 import '../fonts/marsha/stylesheet.css';
 import OurWeddingGif from '../images/animations/ourwedding_wh.gif';
 import FlowerGif from '../images/animations/flowers.gif';
+import Flower3Gif from '../images/animations/flowers3.gif';
 import MrMrsGif from '../images/animations/mrandmrs.gif';
 import JustWhGif from '../images/animations/savethedate_wh.gif';
 import ThankyouGif from '../images/animations/thnyou_wh.gif';
@@ -166,7 +167,7 @@ class Home extends Component {
         return (
             <section className="gla_section gla_image_bck" id="gallery">
             <div className="container text-center">
-                <p><img src="images/animations/flowers3.gif" height="130" alt=""/></p>
+                <p><img src={Flower3Gif} height="130" alt=""/></p>
                 <h2>Gallery</h2>
                 
                 <div className="button-group filter-button-group">
