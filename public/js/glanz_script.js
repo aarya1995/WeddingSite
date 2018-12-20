@@ -281,37 +281,37 @@
 	              navigationText:['<i class="ti ti-angle-left"></i>','<i class="ti ti-angle-right"></i>']
 	          });
 	          /* Section Background */
-						// $('.gla_image_bck').each(function(){
-						// 	var image = $(this).attr('data-image');
-						// 	var gradient = $(this).attr('data-gradient');
-						// 	var color = $(this).attr('data-color');
-						// 	var blend = $(this).attr('data-blend');
-						// 	var opacity = $(this).attr('data-opacity');
-						// 	var position = $(this).attr('data-position');
-						// 	var height = $(this).attr('data-height');
-						// 	if (image){
-						// 		$(this).css('background-image', 'url('+image+')');	
-						// 	}
-						// 	if (gradient){
-						// 		$(this).css('background-image', gradient);	
-						// 	}
-						// 	if (color){
-						// 		$(this).css('background-color', color);	
-						// 	}
-						// 	if (blend){
-						// 		$(this).css('background-blend-mode', blend);	
-						// 	}
-						// 	if (position){
-						// 		$(this).css('background-position', position);	
-						// 	}
-						// 	if (opacity){
-						// 		$(this).css('opacity', opacity);	
-						// 	}
-						// 	if (height){
-						// 		$(this).css('height', height);	
-						// 	}
+						$('.gla_image_bck').each(function(){
+							var image = $(this).attr('data-image');
+							var gradient = $(this).attr('data-gradient');
+							var color = $(this).attr('data-color');
+							var blend = $(this).attr('data-blend');
+							var opacity = $(this).attr('data-opacity');
+							var position = $(this).attr('data-position');
+							var height = $(this).attr('data-height');
+							if (image){
+								$(this).css('background-image', 'url('+image+')');	
+							}
+							if (gradient){
+								$(this).css('background-image', gradient);	
+							}
+							if (color){
+								$(this).css('background-color', color);	
+							}
+							if (blend){
+								$(this).css('background-blend-mode', blend);	
+							}
+							if (position){
+								$(this).css('background-position', position);	
+							}
+							if (opacity){
+								$(this).css('opacity', opacity);	
+							}
+							if (height){
+								$(this).css('height', height);	
+							}
 
-						// });
+						});
 	      }
 
 	  });

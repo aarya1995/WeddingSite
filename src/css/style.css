@@ -34,3 +34,19 @@
     background-size: cover;
     background-position: center;
 }
+
+.wedding-venue {
+    background-image: url('../images/purple-grapes.jpg');
+    background-size: cover;
+}
+
+.wedding-reception {
+    background-image: url('../images/table.jpg');
+    background-size: cover;
+}
+
+.thankyou-bg {
+    background-image: url('../images/thankyou-bg.jpg');
+    background-size: cover;
+    background-position: 50% -100%;
+}
