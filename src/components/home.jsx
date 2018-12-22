@@ -38,7 +38,7 @@ class Home extends Component {
 
     renderHeader = () => {
         return (
-            <div className="main-img gla_slider gla_image_bck  gla_wht_txt gla_fixed" data-stellar-background-ratio="0.8">
+            <div className="gla_slider gla_image_bck  gla_wht_txt gla_fixed" data-image="https://c1.staticflickr.com/5/4805/46390311681_0d69715512_b.jpg" data-stellar-background-ratio="0.8">
                 <div className="gla_over" data-color="#9abab6" data-opacity="0.2"></div>
                 <div className="container">
                     <div className="gla_slide_txt gla_slide_center_bottom text-center">
@@ -61,7 +61,7 @@ class Home extends Component {
                 <div className="container text-center">
                     <div className="row text-center">
                         <div className="col-md-4 gla_round_block">
-                            <div className="akshay-headshot gla_round_im gla_image_bck"></div>
+                            <div className="gla_round_im gla_image_bck" data-image="https://c2.staticflickr.com/8/7845/32543774558_873383369b_b.jpg"></div>
                             <h3>Akshay Kumar</h3>
                         </div>
                         <div className="col-md-4 gla_round_block">
@@ -72,7 +72,7 @@ class Home extends Component {
                             Napa Valley Vineyards<br/>CA
                         </div>
                         <div className="col-md-4 gla_round_block">
-                            <div className="selena-headshot gla_round_im gla_image_bck"></div>
+                            <div className="gla_round_im gla_image_bck" data-image="https://c1.staticflickr.com/5/4864/46365048662_bdbc950a47_b.jpg"></div>
                             <h3>Selena Lee</h3>
                         </div>
                     </div>
@@ -97,7 +97,7 @@ class Home extends Component {
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio mollitia, ipsa accusamus eius. Aspernatur ab sed minima, doloremque eligendi voluptatibus repellat unde, facilis natus ex ipsum eius atque suscipit fugit.</p>
                             </div>
                         </div>
-                        <div className="col-md-6 gla_image_bck couple1">
+                        <div className="col-md-6 gla_image_bck" data-image="https://c1.staticflickr.com/5/4888/31476161497_61c4a5caa7_b.jpg">
                             
                         </div>
                         <div className="col-md-6 col-md-push-6 gla_image_bck" data-color="#fff">
@@ -107,7 +107,7 @@ class Home extends Component {
                             </div>
                             
                         </div>
-                        <div className="col-md-6 col-md-pull-6 gla_image_bck couple2">
+                        <div className="col-md-6 col-md-pull-6 gla_image_bck" data-image="https://c2.staticflickr.com/8/7860/45503327645_e33cfccf21_b.jpg">
                         </div>
                     </div>
                     
@@ -125,7 +125,7 @@ class Home extends Component {
                         <div className="col-md-6 col-sm-6">
                             <a href="#" className="gla_news_block">
                                 <span className="gla_news_img">
-                                    <span className="gla_over wedding-venue"></span>  
+                                    <span className="gla_over" data-image="https://c2.staticflickr.com/8/7884/31476160367_70651f0c6f_o.jpg"></span>  
                                 </span>
                                 <span className="gla_news_title">Wedding Ceremony</span>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa similique porro officiis nobis nulla quidem nihil iste veniam ut sit, maiores. <br/><b>10 August, 2017, St. Thomas's Church, <br/>Bristol, U.K.</b></p>
@@ -134,7 +134,7 @@ class Home extends Component {
                         <div className="col-md-6 col-sm-6">
                             <a href="#" className="gla_news_block">
                                 <span className="gla_news_img">
-                                    <span className="gla_over wedding-reception"></span>  
+                                    <span className="gla_over" data-image="https://c1.staticflickr.com/5/4889/45692620024_fc0ccc48f5_o.jpg"></span>  
                                 </span>
                                 <span className="gla_news_title">Wedding Party</span>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa similique porro officiis nobis nulla quidem nihil iste veniam ut sit, maiores. <br/><b>10 August, 2017, St. Thomas's Church, <br/>Bristol, U.K.</b></p>
@@ -151,7 +151,7 @@ class Home extends Component {
 
     renderQuote = () => {
         return (
-            <section className="gla_section gla_wht_txt quote-bg" data-stellar-background-ratio="0.8">
+            <section className="gla_section gla_image_bck gla_fixed gla_wht_txt" data-stellar-background-ratio="0.8" data-image="https://c2.staticflickr.com/8/7883/44598947050_6eee8008cb_b.jpg">
                 <div className="gla_over" data-color="#282828" data-opacity="0.4"></div>
                 
                 <div className="container text-center">
@@ -287,7 +287,7 @@ class Home extends Component {
 
     renderThankyou = () => {
         return (
-            <section className="gla_section gla_fixed gla_wht_txt thankyou-bg">
+            <section className="gla_section gla_image_bck gla_fixed gla_wht_txt" data-stellar-background-ratio="0.8" data-image="https://c2.staticflickr.com/8/7839/31476159217_ee8a169282_b.jpg">
                 <div className="gla_over" data-color="#282828" data-opacity="0.4"></div>
                 <div className="container text-center">
                     <p><img src={ThankyouGif} alt="" height="200"/></p>
