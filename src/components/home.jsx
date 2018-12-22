@@ -11,6 +11,7 @@ import Flower3Gif from '../images/animations/flowers3.gif';
 import MrMrsGif from '../images/animations/mrandmrs.gif';
 import JustWhGif from '../images/animations/savethedate_wh.gif';
 import ThankyouGif from '../images/animations/thnyou_wh.gif';
+import ReactGA from 'react-ga';
 
 class Home extends Component {
     render() {
@@ -294,6 +295,15 @@ class Home extends Component {
                 </div>
             </section>
         );
+    };
+
+    initializeReactGA = () => {
+        ReactGA.initialize('UA-131318133-1');
+        ReactGA.pageview(window.location.pathname + window.location.search);
+    };
+
+    componentDidMount = () => {
+        this.initializeReactGA();
     };
 }
 
