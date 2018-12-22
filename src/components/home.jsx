@@ -151,7 +151,7 @@ class Home extends Component {
 
     renderQuote = () => {
         return (
-            <section className="gla_section gla_image_bck gla_fixed gla_wht_txt" data-stellar-background-ratio="0.8" data-image="https://c2.staticflickr.com/8/7883/44598947050_6eee8008cb_b.jpg">
+            <section className="gla_section gla_image_bck gla_fixed gla_wht_txt" data-image="https://c2.staticflickr.com/8/7883/44598947050_6eee8008cb_b.jpg">
                 <div className="gla_over" data-color="#282828" data-opacity="0.4"></div>
                 
                 <div className="container text-center">
@@ -287,7 +287,7 @@ class Home extends Component {
 
     renderThankyou = () => {
         return (
-            <section className="gla_section gla_image_bck gla_fixed gla_wht_txt" data-stellar-background-ratio="0.8" data-image="https://c2.staticflickr.com/8/7839/31476159217_ee8a169282_b.jpg">
+            <section className="gla_section gla_image_bck gla_fixed gla_wht_txt" data-image="https://c2.staticflickr.com/8/7839/31476159217_ee8a169282_b.jpg">
                 <div className="gla_over" data-color="#282828" data-opacity="0.4"></div>
                 <div className="container text-center">
                     <p><img src={ThankyouGif} alt="" height="200"/></p>
