@@ -27,7 +27,7 @@ class Navbar extends Component {
                             </div>
                         </div>
                         
-                        <div className="gla_main_menu_content gla_image_bck main-img" data-color="rgba(0,0,0,0.9)">
+                        <div className="gla_main_menu_content gla_image_bck" data-image="https://c1.staticflickr.com/5/4805/46390311681_0d69715512_b.jpg" data-color="rgba(0,0,0,0.9)">
                             <div className="gla_over" data-color="#000" data-opacity="0.7"></div>
                         </div>
 
