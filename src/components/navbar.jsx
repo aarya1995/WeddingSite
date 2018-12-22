@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import GlanzLogo from '../images/glanz_logo.png';
 
 class Navbar extends Component {
     render() {
@@ -12,7 +11,6 @@ class Navbar extends Component {
                     <div className="container">
                         
                         <div className="gla_logo_container clearfix">
-                            <img src={GlanzLogo} alt="" className="gla_logo_rev" />
                             <div className="gla_logo_txt">
                                 <a href="/" className="gla_logo">Akshay &amp; Selena</a>
                                 
