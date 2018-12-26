@@ -14,7 +14,7 @@ class Navbar extends Component {
                             <div className="gla_logo_txt">
                                 <a href="/" className="gla_logo">Akshay &amp; Selena</a>
                                 
-                                <div className="gla_logo_und">August 10, 2019</div>
+                                <div className="gla_logo_und">October 05, 2019</div>
                             </div>
                         </div>
 

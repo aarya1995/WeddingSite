@@ -68,16 +68,16 @@ class Home extends Component {
                         <div className="col-md-4 gla_round_block">
                             <p><img src={MrMrsGif} height="150" alt="" /></p>
                     
-                            <h3>Are getting married<br/>on August 10, 2019</h3>
+                            <h3>Are getting married<br/>on October 05, 2019</h3>
 
-                            Napa Valley Vineyards<br/>CA
+                            Chardonnay Golf Club<br/>Napa Valley, CA
                         </div>
                         <div className="col-md-4 gla_round_block">
                             <div className="gla_round_im gla_image_bck" data-image="https://c1.staticflickr.com/5/4864/46365048662_bdbc950a47_b.jpg"></div>
                             <h3>Selena Lee</h3>
                         </div>
                     </div>
-                    <div className="gla_countdown" data-year="2019" data-month="08" data-day="10"></div>
+                    <div className="gla_countdown" data-year="2019" data-month="10" data-day="05"></div>
                 </div>
             </section>
         );
@@ -129,7 +129,7 @@ class Home extends Component {
                                     <span className="gla_over" data-image="https://c2.staticflickr.com/8/7884/31476160367_70651f0c6f_o.jpg"></span>  
                                 </span>
                                 <span className="gla_news_title">Wedding Ceremony</span>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa similique porro officiis nobis nulla quidem nihil iste veniam ut sit, maiores. <br/><b>10 August, 2017, St. Thomas's Church, <br/>Bristol, U.K.</b></p>
+                                <p>The ceremony will take place under the oak tree. <br/><br/><b>05 October, 2019, 2555 Jameson Canyon Rd, <br/>American Canyon, CA 94503</b></p>
                             </a>
                         </div> 
                         <div className="col-md-6 col-sm-6">
@@ -138,7 +138,7 @@ class Home extends Component {
                                     <span className="gla_over" data-image="https://c1.staticflickr.com/5/4889/45692620024_fc0ccc48f5_o.jpg"></span>  
                                 </span>
                                 <span className="gla_news_title">Wedding Party</span>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa similique porro officiis nobis nulla quidem nihil iste veniam ut sit, maiores. <br/><b>10 August, 2017, St. Thomas's Church, <br/>Bristol, U.K.</b></p>
+                                <p>The reception will be held in the Banquet Room. <br/><br/><b>05 October, 2019, 2555 Jameson Canyon Rd, <br/>American Canyon, CA 94503</b></p>
                             </a>
                         </div> 
 
@@ -169,7 +169,9 @@ class Home extends Component {
             <section className="gla_section gla_image_bck" id="gallery">
             <div className="container text-center">
                 <p><img src={Flower3Gif} height="130" alt=""/></p>
-                <h2>Gallery</h2>
+                <h2>Our Story</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio mollitia, ipsa accusamus eius. Aspernatur ab sed minima, doloremque eligendi voluptatibus repellat unde, facilis natus ex ipsum eius atque suscipit fugit.</p>
+                <br/>
                 
                 <div className="button-group filter-button-group">
                     <a data-filter=".engagement">Engagement</a>
