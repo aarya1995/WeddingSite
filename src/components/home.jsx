@@ -95,7 +95,7 @@ class Home extends Component {
                         <div className="col-md-6 gla_image_bck" data-color="#fff">
                             <div className="gla_simple_block">
                                 <h2 className="normal_font">Akshay Kumar</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio mollitia, ipsa accusamus eius. Aspernatur ab sed minima, doloremque eligendi voluptatibus repellat unde, facilis natus ex ipsum eius atque suscipit fugit.</p>
+                                <p>On a gorgeous Seattle summer day Akshay had meticulously planned a proposal while boating on Lake Union with Selena's best friend and husband to capture all photos and videos. While just entering onto the lake they oriented the boat with views of the Seattle Space Needle and he got down on one knee and asked to marry her. She of course said yes and the nearby boaters and paddle-boarders all cheered.</p>
                             </div>
                         </div>
                         <div className="col-md-6 gla_image_bck" data-image="https://c1.staticflickr.com/5/4888/31476161497_61c4a5caa7_b.jpg">
@@ -104,7 +104,7 @@ class Home extends Component {
                         <div className="col-md-6 col-md-push-6 gla_image_bck" data-color="#fff">
                             <div className="gla_simple_block">
                                 <h2 className="normal_font">Selena Lee</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio mollitia, ipsa accusamus eius. Aspernatur ab sed minima, doloremque eligendi voluptatibus repellat unde, facilis natus ex ipsum eius atque suscipit fugit.</p>
+                                <p>After the proposal Selena was so surprised she thought that was the end to the perfect day however after the boat ride Akshay had planned a dinner. While getting ready at home Selena decided to facetime her parents and let them know the exciting news. She found it strange that her mom answered but with the phone extremely close to her face, but brushed it off since her head was still spinning and didn't think anything more of it. Once she arrived at dinner they led her to a private room in the back and when the doors opened there stood both of her parents who had flown in to surprise her!</p>
                             </div>
                             
                         </div>
@@ -129,7 +129,7 @@ class Home extends Component {
                                     <span className="gla_over" data-image="https://c2.staticflickr.com/8/7884/31476160367_70651f0c6f_o.jpg"></span>  
                                 </span>
                                 <span className="gla_news_title">Wedding Ceremony</span>
-                                <p>The ceremony will take place under the oak tree. <br/><br/><b>05 October, 2019, 2555 Jameson Canyon Rd, <br/>American Canyon, CA 94503</b></p>
+                                <p>The ceremony will take place at Chardonnay Golf Club under the Oak Tree <br/><br/><b>05 October, 2019<br/> 2555 Jameson Canyon Rd, <br/>American Canyon, CA 94503</b></p>
                             </a>
                         </div> 
                         <div className="col-md-6 col-sm-6">
@@ -137,8 +137,8 @@ class Home extends Component {
                                 <span className="gla_news_img">
                                     <span className="gla_over" data-image="https://c1.staticflickr.com/5/4889/45692620024_fc0ccc48f5_o.jpg"></span>  
                                 </span>
-                                <span className="gla_news_title">Wedding Party</span>
-                                <p>The reception will be held in the Banquet Room. <br/><br/><b>05 October, 2019, 2555 Jameson Canyon Rd, <br/>American Canyon, CA 94503</b></p>
+                                <span className="gla_news_title">Reception</span>
+                                <p>The reception will be held in the Banquet Room. <br/><br/><b>05 October, 2019<br/> 2555 Jameson Canyon Rd, <br/>American Canyon, CA 94503</b></p>
                             </a>
                         </div> 
 
@@ -157,8 +157,7 @@ class Home extends Component {
                 
                 <div className="container text-center">
                     <p><img src={JustWhGif} height="150" alt=""/></p>
-                    <h3>You’re wonderful. Can you be wonderful forever?"</h3>
-                    <p className="gla_subtitle">— Abhas. A true master of words.</p>
+                    <h3>Come celebrate with us as two families and cultures unite</h3>
                 </div>
             </section>
         );
@@ -169,9 +168,7 @@ class Home extends Component {
             <section className="gla_section gla_image_bck" id="gallery">
             <div className="container text-center">
                 <p><img src={Flower3Gif} height="130" alt=""/></p>
-                <h2>Our Story</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio mollitia, ipsa accusamus eius. Aspernatur ab sed minima, doloremque eligendi voluptatibus repellat unde, facilis natus ex ipsum eius atque suscipit fugit.</p>
-                <br/>
+                <h2>Gallery</h2>
                 
                 <div className="button-group filter-button-group">
                     <a data-filter=".engagement">Engagement</a>
@@ -272,13 +269,6 @@ class Home extends Component {
                         <div className="gla_shop_item">
                             <a href="https://c1.staticflickr.com/5/4871/45477714605_24e0be8154_b.jpg" className="lightbox">
                                 <img src="https://c1.staticflickr.com/5/4871/45477714605_24e0be8154_b.jpg" alt=""/>
-                            </a>
-                        </div>
-                    </div>
-                    <div className="col-sm-4 gla_anim_box grid-item engagement">
-                        <div className="gla_shop_item">
-                            <a href="https://c1.staticflickr.com/5/4901/45666947864_fe3874cb21_b.jpg" className="lightbox">
-                                <img src="https://c1.staticflickr.com/5/4901/45666947864_fe3874cb21_b.jpg" alt=""/>
                             </a>
                         </div>
                     </div>
